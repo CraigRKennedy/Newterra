@@ -3,6 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <title>Image Map Example</title>
+  <style>
+    body {
+      margin: 0;
+      background: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+  </style>
 </head>
 <body>
 
@@ -16,11 +31,12 @@
     <area target="_blank" alt="Customer Need to Opportunity" title="Customer Need to Opportunity" href="https://newterra.sharepoint.com/sites/OpportunitytoOrder" coords="14,105,39,61,79,26,143,8,144,84,111,97,86,125" shape="poly">
     <area target="_blank" alt="Customer Success" title="Customer Success" href="https://newterra.sharepoint.com/sites/OpportunitytoOrder" coords="150,152,55" shape="circle">
 </map>
-<script src="https://cdn.jsdelivr.net/npm/image-map-resizer@1.0.10/js/imageMapResizer.min.js"></script>
-<script>
-  window.addEventListener('load', function () {
-    imageMapResize();
-  });
-</script>
+ <script src="https://cdn.jsdelivr.net/npm/image-map-resizer@1.0.10/js/imageMapResizer.min.js"></script>
+  <script>
+    window.addEventListener('load', function () {
+      imageMapResize();
+    });
+  </script>
+
 </body>
 </html>
